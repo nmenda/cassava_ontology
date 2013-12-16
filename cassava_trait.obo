@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:09:2013 14:53
+date: 16:12:2013 09:58
 saved-by: aafolabi
 auto-generated-by: OBO-Edit 2.3
 default-namespace: file:C:/Users/BAKARE/Desktop/cassava_trait.obo
@@ -103,7 +103,7 @@ creation_date: 2010-11-08T02:32:17Z
 id: CO_334:0000010
 name: plant stands harvested
 namespace: cassava_trait
-def: "Number of plant stands at harvest." [CO:mb, ISBN:978-131-302-1]
+def: "A count of the number of plant stands at harvest." [CO:mb, ISBN:978-131-302-1]
 synonym: "NOHAV" EXACT []
 xref: ICASS_TRAITID:10056
 is_a: CO_334:0000001 ! agronomic trait
@@ -114,7 +114,7 @@ creation_date: 2010-11-08T02:36:24Z
 id: CO_334:0000011
 name: root number
 namespace: cassava_trait
-def: "Total number of storage roots harvested per plot." [CO:mb, ISBN:978-131-302-1]
+def: "A count of the total number of storage roots harvested per plot." [CO:mb, ISBN:978-131-302-1]
 synonym: "RTNO" EXACT []
 xref: ICASS_TRAITID:10057
 xref: TO:0000084 "Plant trait ontology"
@@ -126,7 +126,7 @@ creation_date: 2010-11-08T02:37:11Z
 id: CO_334:0000012
 name: fresh root weight
 namespace: cassava_trait
-def: "Total fresh weight of storage roots harvested per plot measured in kg." [CO:mb, ISBN:978-131-302-1]
+def: "Total fresh weight of storage roots harvested per plot measured in kilogram (kg)." [CO:mb, ISBN:978-131-302-1]
 synonym: "RTWT" EXACT []
 synonym: "total root fresh weight" RELATED []
 xref: ICASS_TRAITID:10058
@@ -139,7 +139,7 @@ creation_date: 2010-11-08T02:39:18Z
 id: CO_334:0000013
 name: fresh root yield
 namespace: cassava_trait
-def: "Fresh weight of harvested roots expressed in tons per hectares per plant." [CO:mb, ISBN:978-131-302-1]
+def: "Fresh weight of harvested roots expressed in tons per hectares (t/ha) per plant." [CO:mb, ISBN:978-131-302-1]
 synonym: "FYLD" EXACT []
 xref: ICASS_TRAITID:10059
 is_a: CO_334:0000001 ! agronomic trait
@@ -151,7 +151,7 @@ creation_date: 2010-11-08T02:40:53Z
 id: CO_334:0000014
 name: dry yield
 namespace: cassava_trait
-def: "Dry weight of harvested roots derived by multiplying fresh storage root yield by dry matter content expressed in tons per hectares." [CO:mb, ISBN:978-131-302-1]
+def: "Dry weight of harvested roots derived by multiplying fresh storage root yield by dry matter content expressed in tons per hectares (t/ha)." [CO:mb, ISBN:978-131-302-1]
 synonym: "DYLD" EXACT []
 xref: ICASS_TRAITID:10060
 is_a: CO_334:0000001 ! agronomic trait
@@ -164,7 +164,7 @@ creation_date: 2010-11-08T02:41:35Z
 id: CO_334:0000015
 name: harvest index
 namespace: cassava_trait
-def: "Ratio of fresh root weight divided by total biomass." [CO:mb, ISBN:978-131-302-1]
+def: "Proportion of fresh root weight in total biomass." [CO:mb, ISBN:978-131-302-1]
 synonym: "HI" EXACT []
 xref: ICASS_TRAITID:10045
 xref: TO:0000128 "Plant trait ontology"
@@ -191,7 +191,7 @@ creation_date: 2010-11-08T02:44:05Z
 id: CO_334:0000017
 name: top yield
 namespace: cassava_trait
-def: "Total fresh weight of harvested foliage and stems expressed in tons per hectare." [CO:mb, ISBN:978-131-302-1]
+def: "Total fresh weight of harvested foliage and stems expressed in tons per hectare (t/ha)." [CO:mb, ISBN:978-131-302-1]
 synonym: "TYLD" EXACT []
 xref: ICASS_TRAITID:10055
 is_a: CO_334:0000001 ! agronomic trait
@@ -203,7 +203,7 @@ creation_date: 2010-11-08T02:45:46Z
 id: CO_334:0000018
 name: plant height
 namespace: cassava_trait
-def: "Vertical height of plants from the ground to top of the canopy measured in cm." [CO:mb, ISBN:978-131-302-1]
+def: "Vertical height of plants from the ground to top of the canopy measured in centimeter (cm)." [CO:mb, ISBN:978-131-302-1]
 synonym: "PLTHT" EXACT []
 xref: ICASS_TRAITID:10053
 xref: TO:0000207 "Plant trait ontology"
@@ -653,7 +653,7 @@ id: CO_334:0000058
 name: ovary color
 namespace: cassava_trait
 def: "Visual scoring of ovary color with 1 = white, 2 = orange, 3 = green, 4 = red, and 5 = purple." [CO:mb, ISBN:978-131-302-1]
-synonym: "OVRYCOL" EXACT []
+synonym: "OVYCOL" EXACT []
 xref: ICASS_TRAITID:10069
 is_a: CO_334:0000002 ! morphological trait
 created_by: BAKARE
@@ -719,7 +719,7 @@ creation_date: 2010-11-22T12:15:56Z
 id: CO_334:0000064
 name: storage root periderm color
 namespace: cassava_trait
-def: "Color of outer surface of storage root periderm (outer skin color)." [CO:mb, ISBN:978-131-302-1]
+def: "Visual rating of the color of outer surface of storage root periderm (outer skin color) with 1 = white or cream, 2 = yellow, 3 = light brown, 4 = dark brown." [CO:mb, ISBN:978-131-302-1]
 synonym: "OUTCOL" EXACT []
 synonym: "OUTER ROOT SKIN COLOUR" RELATED []
 is_a: CO_334:0000002 ! morphological trait
@@ -740,7 +740,7 @@ creation_date: 2010-11-30T09:41:10Z
 id: CO_334:0000066
 name: ash content
 namespace: cassava_trait
-def: "Residue left behind after all organic matter has been burnt off, a measure of total mineral salts in a food." [CO:mb]
+def: "Residue left behind after all organic matter has been burnt off, a measure of total mineral salts in a food estimated in percentage (%)." [CO:mb]
 synonym: "ASH" EXACT []
 xref: ICASS_TRAITID:10151
 xref: TO:0000607 "Plant trait ontology"
@@ -752,7 +752,7 @@ creation_date: 2010-11-30T09:41:39Z
 id: CO_334:0000067
 name: fibre content
 namespace: cassava_trait
-def: "Part of tuber root that cannot be digested by humans." [CO:mb, ISBN:978-131-302-1]
+def: "Part of tuber root that cannot be digested by humans estimated in percentage (%)." [CO:mb, ISBN:978-131-302-1]
 synonym: "FIBRE" EXACT []
 xref: ICASS_TRAITID:10144
 is_a: CO_334:0000004 ! quality trait
@@ -763,7 +763,7 @@ creation_date: 2010-11-30T09:45:39Z
 id: CO_334:0000068
 name: iron content
 namespace: cassava_trait
-def: "Total iron content in cassava storage roots." [CO:mb]
+def: "Estimation of total iron content in cassava storage roots expressed in part per million or milligram per kilogram." [CO:mb]
 synonym: "FE" EXACT []
 xref: ICASS_TRAITID:10141
 is_a: CO_334:0000004 ! quality trait
@@ -774,7 +774,7 @@ creation_date: 2010-11-30T09:45:55Z
 id: CO_334:0000069
 name: moisture content
 namespace: cassava_trait
-def: "Percentage of water contained in cassava storage root." [CO:mb]
+def: "Percentage (%) of water contained in cassava storage root." [CO:mb]
 synonym: "MC" EXACT []
 xref: ICASS_TRAITID:10153
 is_a: CO_334:0000004 ! quality trait
@@ -785,7 +785,7 @@ creation_date: 2010-11-30T09:46:20Z
 id: CO_334:0000070
 name: protein content
 namespace: cassava_trait
-def: "Percentage of protein content in cassava storage root." [CO:mb]
+def: "Percentage (%) of protein content in cassava storage root." [CO:mb]
 synonym: "PROTEIN" EXACT []
 xref: ICASS_TRAITID:10143
 is_a: CO_334:0000004 ! quality trait
@@ -796,7 +796,7 @@ creation_date: 2010-11-30T09:47:00Z
 id: CO_334:0000071
 name: starch content
 namespace: cassava_trait
-def: "Percentage of complex carbohydrate found in cassava storage root." [CO:mb]
+def: "Percentage (%) of complex carbohydrate found in cassava storage root." [CO:mb]
 synonym: "STARCH" EXACT []
 xref: ICASS_TRAITID:10135
 is_a: CO_334:0000004 ! quality trait
@@ -807,7 +807,7 @@ creation_date: 2010-11-30T09:47:39Z
 id: CO_334:0000072
 name: sugar content
 namespace: cassava_trait
-def: "Sugar content in cassava storage root." [CO:mb]
+def: "Estimation of sugar content in cassava storage root expressed in percentage (%)." [CO:mb]
 synonym: "SUGAR" EXACT []
 xref: ICASS_TRAITID:10152
 is_a: CO_334:0000004 ! quality trait
@@ -840,7 +840,8 @@ creation_date: 2010-11-30T10:15:30Z
 id: CO_334:0000075
 name: amylose content
 namespace: cassava_trait
-def: "Amylose content of cassava roots." [CO:mb, ISBN:978-131-302-1]
+def: "Estimation of amylose content of cassava roots in percentage (%)." [CO:mb, ISBN:978-131-302-1]
+synonym: "AMYL" EXACT []
 is_a: CO_334:0000004 ! quality trait
 created_by: mbakare
 creation_date: 2010-11-30T10:29:08Z
@@ -935,7 +936,7 @@ creation_date: 2010-11-30T05:55:53Z
 id: CO_334:0000084
 name: rotted storage root
 namespace: cassava_trait
-def: "Number of rotted storage roots per plot at the time of harvest." [CO:mb, ISBN:978-131-302-1]
+def: "A count of the number of rotted storage roots per plot at the time of harvest." [CO:mb, ISBN:978-131-302-1]
 synonym: "RTROT" EXACT []
 xref: ICASS_TRAITID:10092
 is_a: CO_334:0000001 ! agronomic trait
@@ -969,7 +970,7 @@ id: CO_334:0000087
 name: Bemesia tabaci adult
 namespace: cassava_trait
 def: "Number of Bemesia tabaci adult white flies on the top five leaves." [CO:mb, ISBN:978-131-302-1]
-synonym: "BTWFAD" EXACT []
+synonym: "BTADT" EXACT []
 is_a: CO_334:0000030 ! insect damage
 created_by: BAKARE
 creation_date: 2010-12-01T04:00:39Z
@@ -979,7 +980,7 @@ id: CO_334:0000088
 name: Bemesia tabaci nymphs
 namespace: cassava_trait
 def: "Number of Bemesia tabaci nymphs white flies on the14th leaf." [CO:mb, ISBN:978-131-302-1]
-synonym: "BTWFN" EXACT []
+synonym: "BTNYM" EXACT []
 is_a: CO_334:0000030 ! insect damage
 created_by: BAKARE
 creation_date: 2010-12-01T04:01:46Z
@@ -1056,6 +1057,7 @@ id: CO_334:0000095
 name: beta carotene content
 namespace: cassava_trait
 def: "Concentration of beta carotene extracted from root samples and estimated by HPLC expressed in ug per gram fresh weight." [CO:mb, ISBN:978-131-302-1]
+synonym: "BC" EXACT []
 is_a: CO_334:0000004 ! quality trait
 created_by: BAKARE
 creation_date: 2010-12-02T03:06:12Z
@@ -1064,7 +1066,7 @@ creation_date: 2010-12-02T03:06:12Z
 id: CO_334:0000096
 name: gari content
 namespace: cassava_trait
-def: "Percentage gari processed from fresh storage roots." [CO:mb]
+def: "Percentage (%) gari processed from fresh storage roots." [CO:mb]
 synonym: "GARCONT" EXACT []
 xref: ICASS_TRAITID:10150
 is_a: CO_334:0000004 ! quality trait
@@ -1075,7 +1077,8 @@ creation_date: 2010-12-02T03:12:13Z
 id: CO_334:0000097
 name: fufu content
 namespace: cassava_trait
-def: "Percentage fufu processed from fresh storage roots." [CO:mb, ISBN:978-131-302-1]
+def: "Percentage (%) fufu processed from fresh storage roots." [CO:mb, ISBN:978-131-302-1]
+synonym: "FUFUCNT" EXACT []
 is_a: CO_334:0000004 ! quality trait
 created_by: BAKARE
 creation_date: 2010-12-02T03:14:31Z
@@ -1084,7 +1087,8 @@ creation_date: 2010-12-02T03:14:31Z
 id: CO_334:0000098
 name: lafun content
 namespace: cassava_trait
-def: "Percentage lafun processed from fresh storage roots." [CO:mb]
+def: "Percentage (%) lafun processed from fresh storage roots." [CO:mb]
+synonym: "LAFUN" EXACT []
 is_a: CO_334:0000004 ! quality trait
 created_by: BAKARE
 creation_date: 2010-12-02T03:18:14Z
@@ -1094,6 +1098,7 @@ id: CO_334:0000099
 name: plant architecture
 namespace: cassava_trait
 def: "Plant architecture on a 1-5 scale with 1 = excellent, 2 good, 3 = fair, 4 = bad, and 5 = very bad." [CO:mb]
+synonym: "PLTARC" EXACT []
 is_a: CO_334:0000002 ! morphological trait
 created_by: BAKARE
 creation_date: 2010-12-21T09:34:18Z
@@ -1190,7 +1195,7 @@ creation_date: 2010-12-03T11:26:08Z
 id: CO_334:0000108
 name: female staminoids
 namespace: cassava_trait
-def: "Female cassava flowers without rudimentary stamen scored as 0 = absent and 1 = present." [ISBN:978-131-302-1]
+def: "Visual observation of female cassava flowers without rudimentary stamen scored as 0 = absent and 1 = present." [ISBN:978-131-302-1]
 synonym: "FSTAMEN" EXACT []
 xref: ICASS_TRAITID:10071
 is_a: CO_334:0000001 ! agronomic trait
@@ -1205,7 +1210,7 @@ def: "Days to 50 percent flowering." [CO:mb, ISBN:978-131-302-1]
 synonym: "DYFL" EXACT []
 xref: ICASS_TRAITID:10073
 xref: TO:0000344 "Plant trait ontology"
-is_a: CO_334:0000001 ! agronomic trait
+is_a: CO_334:0000002 ! morphological trait
 created_by: BAKARE
 creation_date: 2010-12-03T11:31:04Z
 
@@ -1228,7 +1233,7 @@ namespace: cassava_trait
 def: "Visual rating of flowers (50%) in plant with 0 = absent and 1 = present." [CO:mb, ISBN:978-131-302-1]
 synonym: "FLOWER" EXACT []
 xref: ICASS_TRAITID:10065
-is_a: CO_334:0000001 ! agronomic trait
+is_a: CO_334:0000002 ! morphological trait
 created_by: BAKARE
 creation_date: 2010-12-03T11:39:08Z
 
@@ -1236,7 +1241,7 @@ creation_date: 2010-12-03T11:39:08Z
 id: CO_334:0000112
 name: fruit exocarp texture
 namespace: cassava_trait
-def: "Texture of the outer most layer of the cassava fruit scored as 3 = smooth and 7 = rough." [CO:mb, ISBN:978-131-302-1]
+def: "Sensory assessment of the texture of outer most layer of the cassava fruit scored as 3 = smooth and 7 = rough." [CO:mb, ISBN:978-131-302-1]
 synonym: "FREXCAP" EXACT []
 xref: ICASS_TRAITID:10075
 is_a: CO_334:0000001 ! agronomic trait
@@ -1269,7 +1274,7 @@ creation_date: 2010-12-06T09:25:57Z
 id: CO_334:0000115
 name: storage root cortex color
 namespace: cassava_trait
-def: "Color of outer surface of storage root cortex (inner skin color)." [CO:mb, ISBN:978-131-302-1]
+def: "Visual rating of the color of outer surface of storage root cortex (inner skin color) with 1 = white or cream, 2 = yellow, 3 = pink, 4 = purple." [CO:mb, ISBN:978-131-302-1]
 synonym: "INNCOL" EXACT []
 synonym: "INNER ROOT SKIN COLOUR" RELATED []
 xref: ICASS_TRAITID:10090
@@ -1292,7 +1297,8 @@ creation_date: 2010-12-06T10:05:56Z
 id: CO_334:0000117
 name: beta carotene retention
 namespace: cassava_trait
-def: "The percentage of beta carotene content in a prepared food product compared to the nutrient content in the raw food." [CO:mb]
+def: "The percentage (%) of beta carotene content in a prepared food product compared to the nutrient content in the raw food." [CO:mb]
+synonym: "BCRET" EXACT []
 is_a: CO_334:0000004 ! quality trait
 created_by: BAKARE
 creation_date: 2010-12-07T08:27:22Z
@@ -1301,7 +1307,8 @@ creation_date: 2010-12-07T08:27:22Z
 id: CO_334:0000118
 name: total carotenoid retention
 namespace: cassava_trait
-def: "The percentage of total carotene content in a prepared food product compared to the nutrient content in the raw food." [CO:mb]
+def: "The percentage (%) of total carotene content in a prepared food product compared to the nutrient content in the raw food." [CO:mb]
+synonym: "TCRET" EXACT []
 is_a: CO_334:0000004 ! quality trait
 created_by: BAKARE
 creation_date: 2010-12-07T08:28:06Z
@@ -1329,7 +1336,8 @@ creation_date: 2010-12-21T10:37:58Z
 id: CO_334:0000121
 name: amylopectin content
 namespace: cassava_trait
-def: "Amylopectin content of cassava roots." [CO:mb, ISBN:978-131-302-1]
+def: "Estimation of amylopectin content of cassava roots in percentage(%)." [CO:mb, ISBN:978-131-302-1]
+synonym: "AMYLP" EXACT []
 is_a: CO_334:0000004 ! quality trait
 created_by: BAKARE
 creation_date: 2010-12-07T06:17:38Z
@@ -1345,11 +1353,13 @@ creation_date: 2013-03-20T14:00:04Z
 
 [Term]
 id: CO_334:0000123
-name: counting
+name: plant height with leaf
 namespace: cassava_trait
-relationship: method_of CO_334:0000008 ! sprouting
+def: "Portion of the stem with leaves measured as the distance in centimeter from the point of attachment of the oldest leaf to the youngest leaf (apical leaf portion)." []
+synonym: "PLHTLF" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
 created_by: aafolabi
-creation_date: 2013-07-03T14:58:45Z
+creation_date: 2013-12-09T10:55:40Z
 
 [Term]
 id: CO_334:0000124
@@ -1364,2513 +1374,352 @@ creation_date: 2010-12-13T08:41:13Z
 
 [Term]
 id: CO_334:0000125
-name: proportion
-namespace: cassava_trait
-relationship: scale_of CO_334:0000123 ! counting
-created_by: aafolabi
-creation_date: 2013-07-03T15:17:03Z
-
-[Term]
-id: CO_334:0000126
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000009 ! initial vigor
-created_by: aafolabi
-creation_date: 2013-07-03T15:19:31Z
-
-[Term]
-id: CO_334:0000127
-name: IITA 3,5,7 scale
-namespace: cassava_trait
-relationship: scale_of CO_334:0000126 ! visual rating
-created_by: aafolabi
-creation_date: 2013-07-03T15:23:05Z
-
-[Term]
-id: CO_334:0000128
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000010 ! plant stands harvested
-created_by: aafolabi
-creation_date: 2013-07-03T15:28:39Z
-
-[Term]
-id: CO_334:0000129
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000128 ! counting
-created_by: aafolabi
-creation_date: 2013-07-03T15:29:16Z
-
-[Term]
-id: CO_334:0000130
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000011 ! root number
-created_by: aafolabi
-creation_date: 2013-07-03T15:53:33Z
-
-[Term]
-id: CO_334:0000131
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000130 ! counting
-created_by: aafolabi
-creation_date: 2013-07-03T15:54:42Z
-
-[Term]
-id: CO_334:0000132
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000012 ! fresh root weight
-created_by: aafolabi
-creation_date: 2013-07-03T16:20:16Z
-
-[Term]
-id: CO_334:0000133
-name: kilogram
-namespace: cassava_trait
-relationship: scale_of CO_334:0000132 ! measurement
-created_by: aafolabi
-creation_date: 2013-07-03T16:26:08Z
-
-[Term]
-id: CO_334:0000134
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000013 ! fresh root yield
-created_by: aafolabi
-creation_date: 2013-07-03T16:50:35Z
-
-[Term]
-id: CO_334:0000135
-name: tonnes per hectare
-namespace: cassava_trait
-relationship: scale_of CO_334:0000134 ! estimation
-created_by: aafolabi
-creation_date: 2013-07-03T16:52:21Z
-
-[Term]
-id: CO_334:0000136
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000014 ! dry yield
-created_by: aafolabi
-creation_date: 2013-07-05T09:25:49Z
-
-[Term]
-id: CO_334:0000137
-name: tonnes per hectare
-namespace: cassava_trait
-relationship: scale_of CO_334:0000136 ! estimation
-created_by: aafolabi
-creation_date: 2013-07-05T09:26:43Z
-
-[Term]
-id: CO_334:0000138
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000015 ! harvest index
-created_by: aafolabi
-creation_date: 2013-07-05T09:36:00Z
-
-[Term]
-id: CO_334:0000139
-name: proportion
-namespace: cassava_trait
-relationship: scale_of CO_334:0000138 ! estimation
-created_by: aafolabi
-creation_date: 2013-07-05T09:37:40Z
-
-[Term]
-id: CO_334:0000140
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000016 ! fresh shoot weight
-created_by: aafolabi
-creation_date: 2013-07-05T09:44:37Z
-
-[Term]
-id: CO_334:0000141
-name: kilogram
-namespace: cassava_trait
-relationship: scale_of CO_334:0000140 ! measurement
-created_by: aafolabi
-creation_date: 2013-07-05T09:46:45Z
-
-[Term]
-id: CO_334:0000142
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000017 ! top yield
-created_by: aafolabi
-creation_date: 2013-07-05T10:53:49Z
-
-[Term]
-id: CO_334:0000143
-name: tonnes per hectare
-namespace: cassava_trait
-relationship: scale_of CO_334:0000142 ! estimation
-created_by: aafolabi
-creation_date: 2013-07-05T10:54:30Z
-
-[Term]
-id: CO_334:0000144
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000018 ! plant height
-created_by: aafolabi
-creation_date: 2013-07-05T10:57:58Z
-
-[Term]
-id: CO_334:0000145
-name: centimeter
-namespace: cassava_trait
-relationship: scale_of CO_334:0000144 ! measurement
-created_by: aafolabi
-creation_date: 2013-07-05T10:58:39Z
-
-[Term]
-id: CO_334:0000146
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000084 ! rotted storage root
-created_by: aafolabi
-creation_date: 2013-07-05T11:08:33Z
-
-[Term]
-id: CO_334:0000147
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000146 ! counting
-created_by: aafolabi
-creation_date: 2013-07-05T11:13:22Z
-
-[Term]
-id: CO_334:0000148
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000094 ! proportion lodged plants
-created_by: aafolabi
-creation_date: 2013-07-05T15:43:38Z
-
-[Term]
-id: CO_334:0000149
-name: proportion
-namespace: cassava_trait
-relationship: scale_of CO_334:0000148 ! counting
-created_by: aafolabi
-creation_date: 2013-07-05T15:44:20Z
-
-[Term]
-id: CO_334:0000150
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000110 ! fruit set
-created_by: aafolabi
-creation_date: 2013-07-05T15:45:15Z
-
-[Term]
-id: CO_334:0000151
-name: IITA 0,1 scale
-namespace: cassava_trait
-relationship: scale_of CO_334:0000150 ! visual observation
-created_by: aafolabi
-creation_date: 2013-07-05T15:46:02Z
-
-[Term]
-id: CO_334:0000152
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000112 ! fruit exocarp texture
-created_by: aafolabi
-creation_date: 2013-07-05T16:07:55Z
-
-[Term]
-id: CO_334:0000153
-name: IITA 3,7 scale
-namespace: cassava_trait
-relationship: scale_of CO_334:0000152 ! visual observation
-created_by: aafolabi
-creation_date: 2013-07-05T16:08:47Z
-
-[Term]
-id: CO_334:0000154
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000106 ! first apical branch height
-created_by: aafolabi
-creation_date: 2013-07-05T16:09:55Z
-
-[Term]
-id: CO_334:0000155
-name: centimeter
-namespace: cassava_trait
-relationship: scale_of CO_334:0000154 ! measurement
-created_by: aafolabi
-creation_date: 2013-07-05T16:11:06Z
-
-[Term]
-id: CO_334:0000156
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000108 ! female staminoids
-created_by: aafolabi
-creation_date: 2013-07-05T16:13:17Z
-
-[Term]
-id: CO_334:0000157
-name: IITA 0,1 scale
-namespace: cassava_trait
-relationship: scale_of CO_334:0000156 ! visual observation
-created_by: aafolabi
-creation_date: 2013-07-05T16:14:15Z
-
-[Term]
-id: CO_334:0000158
-name: calculation
-namespace: cassava_trait
-relationship: method_of CO_334:0000109 ! days to flower
-created_by: aafolabi
-creation_date: 2013-07-05T16:15:00Z
-
-[Term]
-id: CO_334:0000159
-name: days
-namespace: cassava_trait
-relationship: scale_of CO_334:0000158 ! calculation
-created_by: aafolabi
-creation_date: 2013-07-05T16:15:30Z
-
-[Term]
-id: CO_334:0000160
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000103 ! anthocyanin pigmentation
-created_by: aafolabi
-creation_date: 2013-07-05T16:16:20Z
-
-[Term]
-id: CO_334:0000161
-name: IITA 0-3 scale
-namespace: cassava_trait
-relationship: scale_of CO_334:0000160 ! visual rating
-created_by: aafolabi
-creation_date: 2013-07-05T16:16:48Z
-
-[Term]
-id: CO_334:0000162
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000100 ! stipule length
-created_by: aafolabi
-creation_date: 2013-07-05T16:18:01Z
-
-[Term]
-id: CO_334:0000163
-name: IITA 3,5,7 scale
-namespace: cassava_trait
-relationship: scale_of CO_334:0000162 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-07-05T16:18:40Z
-
-[Term]
-id: CO_334:0000164
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000035 ! cassava mosaic disease severity
-created_by: aafolabi
-creation_date: 2013-07-05T16:25:57Z
-
-[Term]
-id: CO_334:0000165
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely diseased." []
-relationship: scale_of CO_334:0000164 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-07-05T16:27:16Z
-
-[Term]
-id: CO_334:0000166
-name: property
-namespace: cassava_trait
-def: "cassava mosaic disease severity is evaluated at one to twelve (1-12) months after planting." []
-is_a: CO_334:0000035 ! cassava mosaic disease severity
-created_by: aafolabi
-creation_date: 2013-07-05T16:29:52Z
-
-[Term]
-id: CO_334:0000167
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000039 ! cassava mosaic disease incidence
-created_by: aafolabi
-creation_date: 2013-07-05T16:38:35Z
-
-[Term]
-id: CO_334:0000168
-name: proportion
-namespace: cassava_trait
-relationship: scale_of CO_334:0000167 ! counting
-created_by: aafolabi
-creation_date: 2013-07-05T16:40:24Z
-
-[Term]
-id: CO_334:0000169
-name: property
-namespace: cassava_trait
-def: "Proportion of plant infested with cassava mosaic virus within a plot, evaluated at one to twelve (1-12) months after planting." []
-is_a: CO_334:0000039 ! cassava mosaic disease incidence
-created_by: aafolabi
-creation_date: 2013-07-05T16:41:43Z
-
-[Term]
-id: CO_334:0000170
-name: stem weight
-namespace: cassava_trait
-def: "Fresh weight of the plantable portion of plant excluding the leaves, and stumps." []
-synonym: "STEMWT" EXACT []
-is_a: CO_334:0000001 ! agronomic trait
-created_by: aafolabi
-creation_date: 2013-07-05T17:00:13Z
-
-[Term]
-id: CO_334:0000171
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000170 ! stem weight
-created_by: aafolabi
-creation_date: 2013-07-05T17:09:24Z
-
-[Term]
-id: CO_334:0000172
-name: kilogram
-namespace: cassava_trait
-relationship: scale_of CO_334:0000171 ! measurement
-created_by: aafolabi
-creation_date: 2013-07-05T17:10:47Z
-
-[Term]
-id: CO_334:0000173
-name: average stem length
-namespace: cassava_trait
-def: "Total number of stems divided by the number of plant stands per plot." []
-synonym: "ASTMLT" EXACT []
-is_a: CO_334:0000001 ! agronomic trait
-created_by: aafolabi
-creation_date: 2013-07-05T17:13:08Z
-
-[Term]
-id: CO_334:0000174
-name: Estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000173 ! average stem length
-created_by: aafolabi
-creation_date: 2013-07-05T17:17:25Z
-
-[Term]
-id: CO_334:0000175
-name: centimeter
-namespace: cassava_trait
-relationship: scale_of CO_334:0000174 ! Estimation
-created_by: aafolabi
-creation_date: 2013-07-05T17:18:23Z
-
-[Term]
-id: CO_334:0000176
-name: stem number
-namespace: cassava_trait
-def: "Total number of stems per plot." [CO:aa]
-synonym: "STEMNO" EXACT []
-is_a: CO_334:0000001 ! agronomic trait
-created_by: aafolabi
-creation_date: 2013-07-05T17:19:42Z
-
-[Term]
-id: CO_334:0000177
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000176 ! stem number
-created_by: aafolabi
-creation_date: 2013-07-05T17:43:18Z
-
-[Term]
-id: CO_334:0000178
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000177 ! counting
-created_by: aafolabi
-creation_date: 2013-07-05T17:43:59Z
-
-[Term]
-id: CO_334:0000179
-name: tip shoot weight
-namespace: cassava_trait
-def: "Weight of the tip shoot portion of the stem." [CO:aa]
-synonym: "TPSHWT" RELATED []
-is_a: CO_334:0000001 ! agronomic trait
-created_by: aafolabi
-creation_date: 2013-07-05T17:53:17Z
-
-[Term]
-id: CO_334:0000180
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000179 ! tip shoot weight
-created_by: aafolabi
-creation_date: 2013-07-05T17:58:04Z
-
-[Term]
-id: CO_334:0000181
-name: kilogram
-namespace: cassava_trait
-relationship: scale_of CO_334:0000180 ! measurement
-created_by: aafolabi
-creation_date: 2013-07-05T18:00:37Z
-
-[Term]
-id: CO_334:0000182
 name: plant height without leaf
 namespace: cassava_trait
-def: "Portion of the stem with no leaf, taken as plant height." [CO:aa]
+def: "Portion of stem with no leaf measured in centimeter (cm) by deducting plant height with leaf from plant height." []
 synonym: "PHTWLF" EXACT []
 is_a: CO_334:0000001 ! agronomic trait
 created_by: aafolabi
-creation_date: 2013-07-05T18:01:56Z
+creation_date: 2013-12-09T11:01:58Z
 
 [Term]
-id: CO_334:0000183
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000182 ! plant height without leaf
-created_by: aafolabi
-creation_date: 2013-07-05T18:11:45Z
-
-[Term]
-id: CO_334:0000184
-name: centimeter
-namespace: cassava_trait
-relationship: scale_of CO_334:0000183 ! measurement
-created_by: aafolabi
-creation_date: 2013-07-05T18:12:22Z
-
-[Term]
-id: CO_334:0000185
-name: plant height with leaf
-namespace: cassava_trait
-def: "Length from the soil surface to the apical meristem portion on the main stem." []
-synonym: "PLHTLF" EXACT []
-is_a: CO_334:0000001 ! agronomic trait
-created_by: aafolabi
-creation_date: 2013-07-05T18:12:50Z
-
-[Term]
-id: CO_334:0000186
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000185 ! plant height with leaf
-created_by: aafolabi
-creation_date: 2013-07-05T18:18:48Z
-
-[Term]
-id: CO_334:0000187
-name: centimeter
-namespace: cassava_trait
-relationship: scale_of CO_334:0000186 ! measurement
-created_by: aafolabi
-creation_date: 2013-07-05T18:24:36Z
-
-[Term]
-id: CO_334:0000188
+id: CO_334:0000126
 name: plantable stem
 namespace: cassava_trait
-def: "Portion of stem (matured or disease free) from centimeter above the stump, comprising the hardwood, semi hardwood upper shoot portion, but excluding the immature greenish shoot portion." [CO:aa]
+def: "Portion of stems (matured and disease free) from few centimeter (cm) above the stump comprising the hardwood, semi hardwood upper shoot portion but excluding the immature greenish shoot portion." []
 synonym: "PLBSTM" EXACT []
 is_a: CO_334:0000001 ! agronomic trait
 created_by: aafolabi
-creation_date: 2013-07-05T18:26:10Z
+creation_date: 2013-12-09T11:06:48Z
 
 [Term]
-id: CO_334:0000189
-name: visual observation
+id: CO_334:0000127
+name: stem weight
 namespace: cassava_trait
-relationship: method_of CO_334:0000188 ! plantable stem
+def: "Fresh weight of plantable portion of the plant excluding the leaves, and stump." []
+synonym: "STEMWT" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
 created_by: aafolabi
-creation_date: 2013-07-05T18:31:47Z
+creation_date: 2013-12-09T11:15:38Z
 
 [Term]
-id: CO_334:0000190
+id: CO_334:0000128
+name: average stem length
+namespace: cassava_trait
+def: "Total stem length per plot or per number of plant stands, measure in centimeter (cm)." []
+synonym: "ASTMLT" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+created_by: aafolabi
+creation_date: 2013-12-09T11:17:44Z
+
+[Term]
+id: CO_334:0000129
+name: stem number
+namespace: cassava_trait
+def: "A count of the number of stems per plot." []
+synonym: "STEMNO" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+created_by: aafolabi
+creation_date: 2013-12-09T11:32:04Z
+
+[Term]
+id: CO_334:0000130
+name: tip shoot weight
+namespace: cassava_trait
+def: "Weight of the tip shoot portion of the stem measured in kilogram (kg)." []
+synonym: "TPSHWT" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+created_by: aafolabi
+creation_date: 2013-12-09T11:35:08Z
+
+[Term]
+id: CO_334:0000131
 name: marketable root weight
 namespace: cassava_trait
-def: "Weight of harvested cassava roots visually classified as large and medium sized roots." [CO:aa]
+def: "Weight of harvested cassava roots in kilogram (kg), visually classified as large sized and medium sized roots excluding the small sized roots." []
 synonym: "MKRTWT" EXACT []
 is_a: CO_334:0000001 ! agronomic trait
-created_by: AAfolabi
-creation_date: 2013-07-08T11:48:31Z
+created_by: aafolabi
+creation_date: 2013-12-09T11:39:20Z
 
 [Term]
-id: CO_334:0000191
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000190 ! marketable root weight
-created_by: AAfolabi
-creation_date: 2013-07-08T11:56:26Z
-
-[Term]
-id: CO_334:0000192
-name: kilogram
-namespace: cassava_trait
-relationship: scale_of CO_334:0000191 ! measurement
-created_by: AAfolabi
-creation_date: 2013-07-08T12:17:29Z
-
-[Term]
-id: CO_334:0000193
+id: CO_334:0000132
 name: non marketable root weight
 namespace: cassava_trait
-def: "Weight of small sized roots that do not attract market value." [CO:aa]
+def: "Weight of small sized roots that do not attract any market value, measured in kilogram (kg)." []
 synonym: "NMRTWT" EXACT []
 is_a: CO_334:0000001 ! agronomic trait
-created_by: AAfolabi
-creation_date: 2013-07-08T12:22:10Z
-
-[Term]
-id: CO_334:0000194
-name: Bemesia tabaci nymphs yellow
-namespace: cassava_trait
-def: "Number of  yellow Bemesia tabaci nymphs white flies on 14th leaf." []
-synonym: "BTWFY" EXACT []
-is_a: CO_334:0000030 ! insect damage
 created_by: aafolabi
-creation_date: 2013-07-09T13:41:43Z
+creation_date: 2013-12-09T11:41:59Z
 
 [Term]
-id: CO_334:0000195
-name: Bemesia tabaci nymphs black
-namespace: cassava_trait
-def: "Number of black Bemesia tabaci nymphs white flies on 14th leaf." []
-synonym: "BTWFB" EXACT []
-is_a: CO_334:0000030 ! insect damage
-created_by: aafolabi
-creation_date: 2013-07-09T14:00:23Z
-
-[Term]
-id: CO_334:0000196
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000087 ! Bemesia tabaci adult
-created_by: aafolabi
-creation_date: 2013-07-09T14:06:01Z
-
-[Term]
-id: CO_334:0000197
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000196 ! counting
-created_by: aafolabi
-creation_date: 2013-07-09T14:07:58Z
-
-[Term]
-id: CO_334:0000198
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000088 ! Bemesia tabaci nymphs
-created_by: aafolabi
-creation_date: 2013-07-09T14:10:26Z
-
-[Term]
-id: CO_334:0000199
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000198 ! counting
-created_by: aafolabi
-creation_date: 2013-07-09T14:11:04Z
-
-[Term]
-id: CO_334:0000200
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000195 ! Bemesia tabaci nymphs black
-created_by: aafolabi
-creation_date: 2013-07-09T14:12:42Z
-
-[Term]
-id: CO_334:0000201
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000200 ! counting
-created_by: aafolabi
-creation_date: 2013-07-09T14:13:06Z
-
-[Term]
-id: CO_334:0000202
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000194 ! Bemesia tabaci nymphs yellow
-created_by: aafolabi
-creation_date: 2013-07-09T14:13:27Z
-
-[Term]
-id: CO_334:0000203
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000202 ! counting
-created_by: aafolabi
-creation_date: 2013-07-09T14:14:10Z
-
-[Term]
-id: CO_334:0000204
-name: Bemesia tabaci nymphs severity
-namespace: cassava_trait
-def: "Visual rating of chlorotic blotches infestation on leaves, caused by white fly." []
-synonym: "BTWFS" EXACT []
-is_a: CO_334:0000030 ! insect damage
-created_by: aafolabi
-creation_date: 2013-07-09T14:14:42Z
-
-[Term]
-id: CO_334:0000205
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000204 ! Bemesia tabaci nymphs severity
-created_by: aafolabi
-creation_date: 2013-07-09T14:17:00Z
-
-[Term]
-id: CO_334:0000206
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Symptoms rated from 1 = (none) 2 = (mild chlorotic blotches on <10% leaves) 3 = (moderate damage on 10-30% leaves) 4 = (chlorosis on 30-50%) to 5 = (chlorosis on >50%)." []
-relationship: scale_of CO_334:0000205 ! visual rating
-created_by: aafolabi
-creation_date: 2013-07-09T14:18:32Z
-
-[Term]
-id: CO_334:0000207
-name: Typhlodromalus aripo
-namespace: cassava_trait
-def: "Visual observation of the presence of T. aripo" []
-is_a: CO_334:0000030 ! insect damage
-created_by: aafolabi
-creation_date: 2013-07-09T14:20:23Z
-
-[Term]
-id: CO_334:0000208
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000207 ! Typhlodromalus aripo
-created_by: aafolabi
-creation_date: 2013-07-09T14:32:05Z
-
-[Term]
-id: CO_334:0000209
-name: integer scale of 0 and 1
-namespace: cassava_trait
-def: "Symptoms rated from 0 = (absence) and 1 = (presence)." []
-is_a: CO_334:0000208 ! visual observation
-created_by: aafolabi
-creation_date: 2013-07-09T14:34:38Z
-
-[Term]
-id: CO_334:0000210
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000042 ! spiraling whitefly severity
-created_by: aafolabi
-creation_date: 2013-07-09T14:44:32Z
-
-[Term]
-id: CO_334:0000211
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Symptoms rated from 1 = (clean, no damage) to 5 = (extremely severe, severely damaged)." []
-relationship: scale_of CO_334:0000210 ! visual rating
-created_by: aafolabi
-creation_date: 2013-07-09T14:45:07Z
-
-[Term]
-id: CO_334:0000212
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000043 ! spiraling whitefly incidence
-created_by: aafolabi
-creation_date: 2013-07-09T14:47:38Z
-
-[Term]
-id: CO_334:0000213
-name: proportion
-namespace: cassava_trait
-relationship: scale_of CO_334:0000212 ! counting
-created_by: aafolabi
-creation_date: 2013-07-09T14:49:48Z
-
-[Term]
-id: CO_334:0000214
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000044 ! red spider mite severity
-created_by: aafolabi
-creation_date: 2013-07-09T14:50:39Z
-
-[Term]
-id: CO_334:0000215
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely damaged)." []
-relationship: scale_of CO_334:0000214 ! visual rating
-created_by: aafolabi
-creation_date: 2013-07-09T14:51:13Z
-
-[Term]
-id: CO_334:0000216
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000045 ! red spider mite incidence
-created_by: aafolabi
-creation_date: 2013-07-09T15:03:48Z
-
-[Term]
-id: CO_334:0000217
-name: proportion
-namespace: cassava_trait
-relationship: scale_of CO_334:0000216 ! counting
-created_by: aafolabi
-creation_date: 2013-07-09T15:04:23Z
-
-[Term]
-id: CO_334:0000218
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000034 ! cassava mealy bug severity
-created_by: aafolabi
-creation_date: 2013-07-09T18:00:58Z
-
-[Term]
-id: CO_334:0000219
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely damaged)." []
-relationship: scale_of CO_334:0000218 ! visual rating
-created_by: aafolabi
-creation_date: 2013-07-09T18:01:50Z
-
-[Term]
-id: CO_334:0000220
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000041 ! cassava mealy bug incidence
-created_by: aafolabi
-creation_date: 2013-07-09T18:03:55Z
-
-[Term]
-id: CO_334:0000221
-name: proportion
-namespace: cassava_trait
-relationship: scale_of CO_334:0000220 ! counting
-created_by: aafolabi
-creation_date: 2013-07-09T18:04:20Z
-
-[Term]
-id: CO_334:0000222
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000090 ! cassava brown streak disease root severity
-created_by: aafolabi
-creation_date: 2013-07-09T18:08:11Z
-
-[Term]
-id: CO_334:0000223
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely damaged)." []
-relationship: scale_of CO_334:0000222 ! visual rating
-created_by: aafolabi
-creation_date: 2013-07-09T18:08:34Z
-
-[Term]
-id: CO_334:0000224
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000089 ! cassava brown streak disease root incidence
-created_by: aafolabi
-creation_date: 2013-07-09T18:09:12Z
-
-[Term]
-id: CO_334:0000225
-name: proportion
-namespace: cassava_trait
-relationship: scale_of CO_334:0000224 ! counting
-created_by: aafolabi
-creation_date: 2013-07-09T18:09:42Z
-
-[Term]
-id: CO_334:0000226
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000036 ! cassava brown streak disease leaf severity
-created_by: aafolabi
-creation_date: 2013-07-09T18:10:39Z
-
-[Term]
-id: CO_334:0000227
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely damaged)." []
-relationship: scale_of CO_334:0000226 ! visual rating
-created_by: aafolabi
-creation_date: 2013-07-09T18:11:25Z
-
-[Term]
-id: CO_334:0000228
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000040 ! cassava brown streak disease leaf incidence
-created_by: aafolabi
-creation_date: 2013-07-09T18:12:11Z
-
-[Term]
-id: CO_334:0000229
-name: proportion
-namespace: cassava_trait
-relationship: scale_of CO_334:0000228 ! counting
-created_by: aafolabi
-creation_date: 2013-07-09T18:12:32Z
-
-[Term]
-id: CO_334:0000230
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000032 ! cassava anthracnose disease severity
-created_by: aafolabi
-creation_date: 2013-07-09T18:13:50Z
-
-[Term]
-id: CO_334:0000231
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely damaged)." []
-relationship: scale_of CO_334:0000230 ! visual rating
-created_by: aafolabi
-creation_date: 2013-07-09T18:15:50Z
-
-[Term]
-id: CO_334:0000232
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000038 ! cassava anthracnose disease incidence
-created_by: aafolabi
-creation_date: 2013-07-09T18:17:13Z
-
-[Term]
-id: CO_334:0000233
-name: proportion
-namespace: cassava_trait
-relationship: scale_of CO_334:0000232 ! counting
-created_by: aafolabi
-creation_date: 2013-07-09T18:17:36Z
-
-[Term]
-id: CO_334:0000234
-name: property
-namespace: cassava_trait
-def: "cassava anthracnose disease is evaluated at six to twelve (6 - 12) months after planting." []
-is_a: CO_334:0000032 ! cassava anthracnose disease severity
-created_by: aafolabi
-creation_date: 2013-07-09T18:22:36Z
-
-[Term]
-id: CO_334:0000235
-name: property
-namespace: cassava_trait
-def: "cassava anthracnose disease is evaluated at six to twelve (6-12) months after planting." []
-is_a: CO_334:0000038 ! cassava anthracnose disease incidence
-created_by: aafolabi
-creation_date: 2013-07-09T18:26:14Z
-
-[Term]
-id: CO_334:0000236
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000031 ! cassava bacterial blight severity
-created_by: aafolabi
-creation_date: 2013-07-09T18:30:42Z
-
-[Term]
-id: CO_334:0000237
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Symptoms rated from 1 = (clean, no infection) to 5 = (extremely severe, severely diseased)." []
-relationship: scale_of CO_334:0000236 ! visual rating
-created_by: aafolabi
-creation_date: 2013-07-09T18:31:52Z
-
-[Term]
-id: CO_334:0000238
-name: property
-namespace: cassava_trait
-def: "Cassava bacterial blight severity is evaluated at three to twelve (3-12) months after planting." []
-is_a: CO_334:0000031 ! cassava bacterial blight severity
-created_by: aafolabi
-creation_date: 2013-07-09T18:33:03Z
-
-[Term]
-id: CO_334:0000239
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000037 ! cassava bacterial blight incidence
-created_by: aafolabi
-creation_date: 2013-07-09T18:34:55Z
-
-[Term]
-id: CO_334:0000240
-name: proportion
-namespace: cassava_trait
-relationship: scale_of CO_334:0000239 ! counting
-created_by: aafolabi
-creation_date: 2013-07-09T18:35:18Z
-
-[Term]
-id: CO_334:0000241
-name: property
-namespace: cassava_trait
-def: "Proportion of plants within a plot showing symptoms of cassava bacterial blight evaluated at three to twelve(3-12) months after planting." []
-is_a: CO_334:0000037 ! cassava bacterial blight incidence
-created_by: aafolabi
-creation_date: 2013-07-09T18:37:10Z
-
-[Term]
-id: CO_334:0000242
+id: CO_334:0000133
 name: stem rot
 namespace: cassava_trait
-def: "Number of rotted stems per plot at the time of harvest." [CO:aa]
+def: "A count of the number of rotted stems per plot at the time of harvest." []
 synonym: "STMROT" EXACT []
 is_a: CO_334:0000001 ! agronomic trait
-created_by: AAfolabi
-creation_date: 2013-07-11T10:04:02Z
+created_by: aafolabi
+creation_date: 2013-12-09T11:54:29Z
 
 [Term]
-id: CO_334:0000243
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000242 ! stem rot
-created_by: AAfolabi
-creation_date: 2013-07-11T10:21:00Z
-
-[Term]
-id: CO_334:0000244
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000243 ! counting
-created_by: AAfolabi
-creation_date: 2013-07-11T10:22:15Z
-
-[Term]
-id: CO_334:0000245
+id: CO_334:0000134
 name: leaf weight
 namespace: cassava_trait
-def: "Fresh foliage leaf weight (the above ground biomass excluding the stem)." [CO:aa]
+def: "Weight of fresh foliage leaf (the above ground biomass excluding the stem), measured in kilogram" []
 synonym: "LFWT" EXACT []
 is_a: CO_334:0000001 ! agronomic trait
-created_by: AAfolabi
-creation_date: 2013-07-11T10:24:27Z
+created_by: aafolabi
+creation_date: 2013-12-09T11:56:35Z
 
 [Term]
-id: CO_334:0000246
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000245 ! leaf weight
-created_by: AAfolabi
-creation_date: 2013-07-11T10:27:40Z
-
-[Term]
-id: CO_334:0000247
-name: kilogram
-namespace: cassava_trait
-relationship: scale_of CO_334:0000246 ! measurement
-created_by: AAfolabi
-creation_date: 2013-07-11T10:28:46Z
-
-[Term]
-id: CO_334:0000248
+id: CO_334:0000135
 name: stump weight
 namespace: cassava_trait
-def: "Fresh weight of plant parts at the soil level from the neck of the root to the beginning of the plantable stems." [CO:aa]
+def: "Fresh weight (measured in kilogram) of plant parts at the soil level from the neck of the root to the beginning of the plantable stems." []
+synonym: "STMPWT" EXACT []
 is_a: CO_334:0000001 ! agronomic trait
-created_by: AAfolabi
-creation_date: 2013-07-11T10:37:20Z
+created_by: aafolabi
+creation_date: 2013-12-09T12:28:39Z
 
 [Term]
-id: CO_334:0000249
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000248 ! stump weight
-created_by: AAfolabi
-creation_date: 2013-07-11T10:51:24Z
-
-[Term]
-id: CO_334:0000250
-name: kilogram
-namespace: cassava_trait
-relationship: scale_of CO_334:0000249 ! measurement
-created_by: AAfolabi
-creation_date: 2013-07-11T10:51:47Z
-
-[Term]
-id: CO_334:0000251
+id: CO_334:0000136
 name: leaf scar number
 namespace: cassava_trait
-def: "A count of the number of leaf scars on the main stem." []
+def: "A count of the number of leaf scars on the main stem, where a leaf scar is a node without a leaf." []
 synonym: "LFSCNO" EXACT []
 is_a: CO_334:0000002 ! morphological trait
-created_by: AAfolabi
-creation_date: 2013-07-11T11:18:50Z
+created_by: aafolabi
+creation_date: 2013-12-09T12:36:23Z
 
 [Term]
-id: CO_334:0000252
+id: CO_334:0000137
 name: leaf scar level
 namespace: cassava_trait
-def: "The height of the plant from the ground level to the lowest retained leaf on the main stem." []
+def: "The height of the plant  measured in centimeter (cm), from the ground level to the lowest retained leaf on the main stem." []
 synonym: "SCRLVL" EXACT []
 is_a: CO_334:0000002 ! morphological trait
-created_by: AAfolabi
-creation_date: 2013-07-11T11:33:09Z
-
-[Term]
-id: CO_334:0000253
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000061 ! anther color
-created_by: aafolabi
-creation_date: 2013-09-10T07:58:47Z
-
-[Term]
-id: CO_334:0000254
-name: integer scale of 1-3
-namespace: cassava_trait
-def: "Color rating on scales (1 = cream, 2 = yellow, and 3 = other)." []
-relationship: scale_of CO_334:0000253 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T08:10:55Z
-
-[Term]
-id: CO_334:0000255
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000086 ! apical branching
-created_by: aafolabi
-creation_date: 2013-09-10T11:10:20Z
-
-[Term]
-id: CO_334:0000256
-name: days
-namespace: cassava_trait
-relationship: scale_of CO_334:0000255 ! visual observation
-created_by: aafolabi
-creation_date: 2013-09-10T11:11:04Z
-
-[Term]
-id: CO_334:0000257
-name: visual rating
-namespace: cassava_trait
-def: "." []
-relationship: method_of CO_334:0000026 ! apical pubescence
-created_by: aafolabi
-creation_date: 2013-09-10T11:16:01Z
-
-[Term]
-id: CO_334:0000258
-name: integer scale of 0-7
-namespace: cassava_trait
-def: "Rating of young leaf pubescence on scales (0 = absent or glabrous, 3 = little pubescence, 5 = moderate pubescence, and 7 = high pubescence)" []
-relationship: scale_of CO_334:0000257 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T11:18:13Z
-
-[Term]
-id: CO_334:0000259
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000080 ! branching angle
-created_by: aafolabi
-creation_date: 2013-09-10T12:03:18Z
-
-[Term]
-id: CO_334:0000260
-name: integer scale of 0-7
-namespace: cassava_trait
-def: "Rating on  scales (0 = non branching, 3 = 15-30 degrees, 5 = 45-60 degrees, and 7 = 75-90 degrees)." []
-relationship: scale_of CO_334:0000259 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T12:03:39Z
-
-[Term]
-id: CO_334:0000261
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000079 ! branching level
-created_by: aafolabi
-creation_date: 2013-09-10T12:07:58Z
-
-[Term]
-id: CO_334:0000262
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000261 ! counting
-created_by: aafolabi
-creation_date: 2013-09-10T12:10:59Z
-
-[Term]
-id: CO_334:0000263
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000056 ! caruncle color
-created_by: aafolabi
-creation_date: 2013-09-10T12:16:52Z
-
-[Term]
-id: CO_334:0000264
-name: integer scale of 1-3
-namespace: cassava_trait
-def: "Color scored on scales (1 = white or cream, 2 = pink or red, and 3 = purple)." []
-relationship: scale_of CO_334:0000263 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T13:02:05Z
-
-[Term]
-id: CO_334:0000265
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000119 ! central leaf shape
-created_by: aafolabi
-creation_date: 2013-09-10T13:09:47Z
-
-[Term]
-id: CO_334:0000266
-name: integer scale of 1-10
-namespace: cassava_trait
-def: "Shape scored on scales (1 = ovoid, 2 = elliptic-lanceolate, 3 = obovate-lanceolate, 4 = oblong-lanceolate, 5 = lanceolate, 6 = straight or linear, 7 = pandurate, 8 = linear-piramidal, 9 = linear-pandurate, and 10 = linear-hostatilobalate)." []
-relationship: scale_of CO_334:0000265 ! visual observation
-created_by: aafolabi
-creation_date: 2013-09-10T13:10:13Z
-
-[Term]
-id: CO_334:0000267
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000059 ! disc color
-created_by: aafolabi
-creation_date: 2013-09-10T14:16:35Z
-
-[Term]
-id: CO_334:0000268
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Disc color scored using scales (1 = white, 2 = orange, 3 = green, 4 = red, and 5 = purple)." []
-relationship: scale_of CO_334:0000267 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T14:28:09Z
-
-[Term]
-id: CO_334:0000269
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000116 ! ease of peeling root cortex
-created_by: aafolabi
-creation_date: 2013-09-10T14:37:54Z
-
-[Term]
-id: CO_334:0000270
-name: integer scale of 3 and 7
-namespace: cassava_trait
-def: "Ease of peeling root cortex on scales (3 = easy and 7 = difficult)." []
-relationship: scale_of CO_334:0000269 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T14:38:59Z
-
-[Term]
-id: CO_334:0000271
-name: integer scale of 1-3
-namespace: cassava_trait
-def: "Ease of peeling root cortex on scales 1 = easy, 2 = moderate, 3 = difficult." []
-relationship: scale_of CO_334:0000269 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T14:59:38Z
-
-[Term]
-id: CO_334:0000272
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000102 ! first fully expanded leaf color
-created_by: aafolabi
-creation_date: 2013-09-10T15:05:25Z
-
-[Term]
-id: CO_334:0000273
-name: integer scale of 3-9
-namespace: cassava_trait
-def: "Rating of first fully expanded leaf color on scales (3 = light green, 5 = dark green, 7 = green-purple, and 9 = purple)." []
-relationship: scale_of CO_334:0000272 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T15:24:29Z
-
-[Term]
-id: CO_334:0000274
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000082 ! leaf lobe number
-created_by: aafolabi
-creation_date: 2013-09-10T15:41:24Z
-
-[Term]
-id: CO_334:0000275
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000274 ! visual observation
-created_by: aafolabi
-creation_date: 2013-09-10T15:41:57Z
-
-[Term]
-id: CO_334:0000276
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000083 ! leaf lobe position
-created_by: aafolabi
-creation_date: 2013-09-10T15:43:27Z
-
-[Term]
-id: CO_334:0000277
-name: integer scale of 1-4
-namespace: cassava_trait
-def: "Rating is done on scales 1= erect, 2 = horizontal, 3 = deflexed, and 4 = retorse." []
-relationship: scale_of CO_334:0000276 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T15:43:51Z
-
-[Term]
-id: CO_334:0000278
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000251 ! leaf scar number
-created_by: aafolabi
-creation_date: 2013-09-10T15:52:24Z
-
-[Term]
-id: CO_334:0000279
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000278 ! counting
-created_by: aafolabi
-creation_date: 2013-09-10T15:52:41Z
-
-[Term]
-id: CO_334:0000280
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000105 ! leaf scar prominence
-created_by: aafolabi
-creation_date: 2013-09-10T15:54:07Z
-
-[Term]
-id: CO_334:0000281
-name: integer scale of 3-7
-namespace: cassava_trait
-def: "Rating of prominence leaf scars measured on fresh scars on scales (3 = little prominence, 5 = moderately prominent, and 7 = prominent)." []
-relationship: scale_of CO_334:0000280 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T15:54:28Z
-
-[Term]
-id: CO_334:0000282
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000081 ! leaf vein color
-created_by: aafolabi
-creation_date: 2013-09-10T15:58:17Z
-
-[Term]
-id: CO_334:0000283
-name: integer scale of 3-9
-namespace: cassava_trait
-def: "Visual scoring of leaf vein color on scales (3= light green, 5 = dark green, 7 = green-purple, and 9 = purple)." []
-relationship: scale_of CO_334:0000282 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T15:58:36Z
-
-[Term]
-id: CO_334:0000284
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000058 ! ovary color
-created_by: aafolabi
-creation_date: 2013-09-10T16:05:04Z
-
-[Term]
-id: CO_334:0000285
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Scoring of ovary color on scales (1 = white, 2 = orange, 3 = green, 4 = red, and 5 = purple)." []
-relationship: scale_of CO_334:0000284 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T16:05:37Z
-
-[Term]
-id: CO_334:0000286
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000023 ! petiole color
-created_by: aafolabi
-creation_date: 2013-09-10T17:00:55Z
-
-[Term]
-id: CO_334:0000287
-name: integer scale 3-9
-namespace: cassava_trait
-def: "Petiole color rated on scales of (3 = light green, 5 = dark green, 7 = green-purple, 8 = red, and 9 = purple)." []
-relationship: scale_of CO_334:0000286 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T17:01:45Z
-
-[Term]
-id: CO_334:0000288
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000046 ! petiole insertion angle
-created_by: aafolabi
-creation_date: 2013-09-10T17:08:56Z
-
-[Term]
-id: CO_334:0000289
-name: integer scale of 0-7
-namespace: cassava_trait
-def: "Rating of orientation or angle between the branch and petiole on scales (0 = no petiole, 3 = 15-30 degrees, 5 = 45-70 degrees, and 7 = 75-90 degrees)." []
-relationship: scale_of CO_334:0000288 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T17:09:46Z
-
-[Term]
-id: CO_334:0000290
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000024 ! petiole length
-created_by: aafolabi
-creation_date: 2013-09-10T17:14:24Z
-
-[Term]
-id: CO_334:0000291
-name: integer scale of 0-7
-namespace: cassava_trait
-def: "Visual rating of petiole length with 0 = petiole absent, 3 = short (5-10cm), 5 = medium (15-20cm), and 7 = long (25-30cm)." []
-relationship: scale_of CO_334:0000290 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T17:14:52Z
-
-[Term]
-id: CO_334:0000292
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000099 ! plant architecture
-created_by: aafolabi
-creation_date: 2013-09-10T17:17:30Z
-
-[Term]
-id: CO_334:0000293
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Trait scored on scales (1 = excellent, 2 good, 3 = fair, 4 = bad, and 5 = very bad)." []
-relationship: scale_of CO_334:0000292 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T17:19:45Z
-
-[Term]
-id: CO_334:0000294
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000022 ! root neck length
-created_by: aafolabi
-creation_date: 2013-09-10T17:25:38Z
-
-[Term]
-id: CO_334:0000295
-name: integer scale of 0-7
-namespace: cassava_trait
-def: "Visual rating on scales (0 = absent or sessile, 3 = short, 5 = intermediate, and 7 = long)." []
-relationship: scale_of CO_334:0000294 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T17:26:01Z
-
-[Term]
-id: CO_334:0000296
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000052 ! root position
-created_by: aafolabi
-creation_date: 2013-09-10T17:28:17Z
-
-[Term]
-id: CO_334:0000297
-name: integer scale of 1-3
-namespace: cassava_trait
-def: "Visual rating root position in the soil with 1 = tending toward vertical, 2 = tending toward horizontal, and 3 = irregular." []
-relationship: scale_of CO_334:0000296 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T17:28:35Z
-
-[Term]
-id: CO_334:0000298
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000053 ! root surface color
-created_by: aafolabi
-creation_date: 2013-09-10T17:30:39Z
-
-[Term]
-id: CO_334:0000299
-name: integer scale of 1-3
-namespace: cassava_trait
-def: "Rating of storage root surface color  on scales (1 = white or cream, 2 =light brown, and 3 = dark brown)." []
-relationship: scale_of CO_334:0000298 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T17:30:55Z
-
-[Term]
-id: CO_334:0000300
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000054 ! root surface texture
-created_by: aafolabi
-creation_date: 2013-09-10T17:37:33Z
-
-[Term]
-id: CO_334:0000301
-name: integer scale of 3-7
-namespace: cassava_trait
-def: "Rating of storage root texture on scales (3 = smooth, 5 = intermediate, and 7 = rough)." []
-relationship: scale_of CO_334:0000300 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T17:37:57Z
-
-[Term]
-id: CO_334:0000302
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000063 ! seed color
-created_by: aafolabi
-creation_date: 2013-09-10T17:41:54Z
-
-[Term]
-id: CO_334:0000303
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Scoring of seed color on scales (1 = brown, 2 = grey, 3 = mottled, 4 = black, and 5 = dark brown)." []
-is_a: CO_334:0000302 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T17:42:17Z
-
-[Term]
-id: CO_334:0000304
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000060 ! sepal color
-created_by: aafolabi
-creation_date: 2013-09-10T17:45:10Z
-
-[Term]
-id: CO_334:0000305
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Scoring of sepal color on scales (1 = white, 2 = orange, 3 = green, 4 = red, and 5 = purple)." []
-relationship: scale_of CO_334:0000304 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T17:45:29Z
-
-[Term]
-id: CO_334:0000306
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000062 ! stem color
-created_by: aafolabi
-creation_date: 2013-09-10T17:48:25Z
-
-[Term]
-id: CO_334:0000307
-name: integer scale of 1-4
-namespace: cassava_trait
-def: "Scoring of stem color on scales (1 = silver green, 2 = light brown or orange, 3 = dark brown, and 4 = dark green)." []
-relationship: scale_of CO_334:0000306 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T17:48:59Z
-
-[Term]
-id: CO_334:0000308
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000057 ! stigma color
-created_by: aafolabi
-creation_date: 2013-09-10T17:49:57Z
-
-[Term]
-id: CO_334:0000309
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Scoring of stigma color on scales (1 = white, 2 = orange, 3 = green, 4 = red, and 5 = purple)." []
-relationship: scale_of CO_334:0000308 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T17:50:30Z
-
-[Term]
-id: CO_334:0000310
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000051 ! storage root constriction
-created_by: aafolabi
-creation_date: 2013-09-10T17:53:43Z
-
-[Term]
-id: CO_334:0000311
-name: visual rating
-namespace: cassava_trait
-def: "Scoring of matured root constrictions with scales (0= absent and 1=present)." []
-relationship: scale_of CO_334:0000310 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-10T17:56:10Z
-
-[Term]
-id: CO_334:0000312
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000115 ! storage root cortex color
-created_by: aafolabi
-creation_date: 2013-09-10T17:58:31Z
-
-[Term]
-id: CO_334:0000313
-name: integer scale of 1-3
-namespace: cassava_trait
-def: "Rating of storage root cortex on scales (1 = white, 2 = cream, 3 = pink)." []
-relationship: scale_of CO_334:0000312 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:00:23Z
-
-[Term]
-id: CO_334:0000314
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000055 ! storage root diameter
-created_by: aafolabi
-creation_date: 2013-09-10T18:12:47Z
-
-[Term]
-id: CO_334:0000315
-name: integer scale of 3-7
-namespace: cassava_trait
-def: "Rating of storage root diameter on scales (3 = short, 5 = medium and 7 = long)." []
-relationship: scale_of CO_334:0000314 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:13:18Z
-
-[Term]
-id: CO_334:0000316
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000050 ! storage root peduncle
-created_by: aafolabi
-creation_date: 2013-09-10T18:17:25Z
-
-[Term]
-id: CO_334:0000317
-name: integer scale of 0-5
-namespace: cassava_trait
-def: "Rating of root peduncle length on scales (0 = sessile, 3 = pedunculate, and 5 = mixed)." []
-relationship: scale_of CO_334:0000316 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:17:51Z
-
-[Term]
-id: CO_334:0000318
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000064 ! storage root periderm color
-created_by: aafolabi
-creation_date: 2013-09-10T18:19:08Z
-
-[Term]
-id: CO_334:0000319
-name: integer scale of 1-3
-namespace: cassava_trait
-def: "Rating of storage root periderm color on scales (1 = white , 2 = cream, 3 = dark brown)." []
-relationship: scale_of CO_334:0000318 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:19:53Z
-
-[Term]
-id: CO_334:0000320
-name: integer scale of 1-4
-namespace: cassava_trait
-def: "Rating of storage root periderm color on scales (1 = white or cream , 2 = yellow, 3 = light brown, 4 = dark brown)." []
-relationship: scale_of CO_334:0000318 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:23:20Z
-
-[Term]
-id: CO_334:0000321
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000021 ! storage root pulp color
-created_by: aafolabi
-creation_date: 2013-09-10T18:24:31Z
-
-[Term]
-id: CO_334:0000322
-name: integer scale of 1-3
-namespace: cassava_trait
-def: "Rating of storage root periderm color on scales (1 = white , 2 = cream, 3 = dark brown)." []
-is_a: CO_334:0000321 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:25:07Z
-
-[Term]
-id: CO_334:0000323
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000020 ! storage root shape
-created_by: aafolabi
-creation_date: 2013-09-10T18:29:16Z
-
-[Term]
-id: CO_334:0000324
-name: integer scale 1-4
-namespace: cassava_trait
-def: "Rating of storage root shape on scales (1 = conical, 2 = conical-cylindrical, 3 = cylindrical, and 4 = fusiform)." []
-relationship: scale_of CO_334:0000323 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:29:42Z
-
-[Term]
-id: CO_334:0000325
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000019 ! storage root size
-created_by: aafolabi
-creation_date: 2013-09-10T18:31:06Z
-
-[Term]
-id: CO_334:0000326
-name: integer scale of 3-7
-namespace: cassava_trait
-def: "Rating of storage root size on scales (3 = short, 5 = medium, and 7 = long)." []
-relationship: scale_of CO_334:0000325 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:31:48Z
-
-[Term]
-id: CO_334:0000327
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000101 ! unexpanded apical leaf color
-created_by: aafolabi
-creation_date: 2013-09-10T18:33:04Z
-
-[Term]
-id: CO_334:0000328
-name: integer scale of 3-9
-namespace: cassava_trait
-def: "Rating of unexpanded apical leaf color on scales (3 = light green, 5 = dark green, 7 = green-purple, and 9 = purple)." []
-relationship: scale_of CO_334:0000327 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:33:24Z
-
-[Term]
-id: CO_334:0000329
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000104 ! young stem growth habit
-created_by: aafolabi
-creation_date: 2013-09-10T18:34:20Z
-
-[Term]
-id: CO_334:0000330
-name: integer scale of 1 and 2
-namespace: cassava_trait
-def: "Rating of growth habit of young stem on a scale of 1= straight and 2 = zig-zag." []
-relationship: scale_of CO_334:0000329 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:34:40Z
-
-[Term]
-id: CO_334:0000331
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000025 ! young stem pubescence
-created_by: aafolabi
-creation_date: 2013-09-10T18:37:16Z
-
-[Term]
-id: CO_334:0000332
-name: integer scale of 0-7
-namespace: cassava_trait
-def: "Rating of young stem pubescence on scales (0 = absent or glabrous, 3 = little pubescence, 5 = moderate pubescence, and 7 = high pubescence)." []
-relationship: scale_of CO_334:0000331 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:37:43Z
-
-[Term]
-id: CO_334:0000333
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000048 ! leaf retention
-created_by: aafolabi
-creation_date: 2013-09-10T18:40:04Z
-
-[Term]
-id: CO_334:0000334
-name: integer scale of 1-5
-namespace: cassava_trait
-def: "Rating of leaf longevity using a scale of 1-5, with 1 =(very poor retention) to 5 = (outstanding leaf retention)." []
-relationship: scale_of CO_334:0000333 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-10T18:40:31Z
-
-[Term]
-id: CO_334:0000335
-name: calculation
-namespace: cassava_trait
-relationship: method_of CO_334:0000049 ! leaf life
-created_by: aafolabi
-creation_date: 2013-09-10T18:42:01Z
-
-[Term]
-id: CO_334:0000336
-name: days
-namespace: cassava_trait
-relationship: scale_of CO_334:0000335 ! calculation
-created_by: aafolabi
-creation_date: 2013-09-10T18:42:34Z
-
-[Term]
-id: CO_334:0000337
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000047 ! abscisic acid content
-created_by: aafolabi
-creation_date: 2013-09-10T18:43:32Z
-
-[Term]
-id: CO_334:0000338
-name: milligramme
-namespace: cassava_trait
-relationship: scale_of CO_334:0000337 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-10T18:43:52Z
-
-[Term]
-id: CO_334:0000339
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000121 ! amylopectin content
-created_by: aafolabi
-creation_date: 2013-09-11T07:58:36Z
-
-[Term]
-id: CO_334:0000340
-name: percentage
-namespace: cassava_trait
-def: "%." []
-relationship: scale_of CO_334:0000339 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T08:09:25Z
-
-[Term]
-id: CO_334:0000341
-name: calculation
-namespace: cassava_trait
-relationship: method_of CO_334:0000124 ! amylose amylopectin ratio
-created_by: aafolabi
-creation_date: 2013-09-11T08:13:52Z
-
-[Term]
-id: CO_334:0000342
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000075 ! amylose content
-created_by: aafolabi
-creation_date: 2013-09-11T08:22:38Z
-
-[Term]
-id: CO_334:0000343
-name: percentage
-namespace: cassava_trait
-def: "%." []
-relationship: scale_of CO_334:0000342 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T08:25:46Z
-
-[Term]
-id: CO_334:0000344
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000065 ! ascorbic acid
-created_by: aafolabi
-creation_date: 2013-09-11T08:26:13Z
-
-[Term]
-id: CO_334:0000345
-name: milligramme per hundred grammes
-namespace: cassava_trait
-def: "mg/100g." []
-relationship: scale_of CO_334:0000344 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T08:28:56Z
-
-[Term]
-id: CO_334:0000346
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000066 ! ash content
-created_by: aafolabi
-creation_date: 2013-09-11T08:40:23Z
-
-[Term]
-id: CO_334:0000347
-name: percentage
-namespace: cassava_trait
-def: "%." []
-relationship: scale_of CO_334:0000346 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T08:42:40Z
-
-[Term]
-id: CO_334:0000348
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000095 ! beta carotene content
-created_by: aafolabi
-creation_date: 2013-09-11T08:44:28Z
-
-[Term]
-id: CO_334:0000349
-name: micro gramme per gramme
-namespace: cassava_trait
-def: "ug/g" []
-relationship: scale_of CO_334:0000348 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T08:44:46Z
-
-[Term]
-id: CO_334:0000350
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000117 ! beta carotene retention
-created_by: aafolabi
-creation_date: 2013-09-11T08:46:14Z
-
-[Term]
-id: CO_334:0000351
-name: percentage
-namespace: cassava_trait
-def: "%." []
-relationship: scale_of CO_334:0000350 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T08:46:29Z
-
-[Term]
-id: CO_334:0000352
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000114 ! boiled tuberous root color
-created_by: aafolabi
-creation_date: 2013-09-11T08:48:15Z
-
-[Term]
-id: CO_334:0000353
-name: integer scale of 1-3
-namespace: cassava_trait
-def: "Color scored on scales (1 = white , 2 = cream , 3 = yellow)." []
-relationship: scale_of CO_334:0000352 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-11T08:48:44Z
-
-[Term]
-id: CO_334:0000354
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000092 ! dry matter content
-created_by: aafolabi
-creation_date: 2013-09-11T08:51:26Z
-
-[Term]
-id: CO_334:0000355
-name: percentage
-namespace: cassava_trait
-def: "%." []
-relationship: scale_of CO_334:0000354 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T08:52:00Z
-
-[Term]
-id: CO_334:0000356
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000067 ! fibre content
-created_by: aafolabi
-creation_date: 2013-09-11T09:11:53Z
-
-[Term]
-id: CO_334:0000357
-name: percentage
-namespace: cassava_trait
-def: "%." []
-relationship: scale_of CO_334:0000356 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T09:13:01Z
-
-[Term]
-id: CO_334:0000358
-name: calculation
-namespace: cassava_trait
-relationship: method_of CO_334:0000097 ! fufu content
-created_by: aafolabi
-creation_date: 2013-09-11T09:15:25Z
-
-[Term]
-id: CO_334:0000359
-name: percentage
-namespace: cassava_trait
-relationship: scale_of CO_334:0000358 ! calculation
-created_by: aafolabi
-creation_date: 2013-09-11T09:15:48Z
-
-[Term]
-id: CO_334:0000360
-name: calculation
-namespace: cassava_trait
-relationship: method_of CO_334:0000096 ! gari content
-created_by: aafolabi
-creation_date: 2013-09-11T09:16:56Z
-
-[Term]
-id: CO_334:0000361
-name: percentage
-namespace: cassava_trait
-relationship: scale_of CO_334:0000360 ! calculation
-created_by: aafolabi
-creation_date: 2013-09-11T09:17:16Z
-
-[Term]
-id: CO_334:0000362
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000076 ! hydrogen cyanide potential enzymatic method
-created_by: aafolabi
-creation_date: 2013-09-11T09:18:23Z
-
-[Term]
-id: CO_334:0000363
-name: text
-namespace: cassava_trait
-def: "Cyanogenic potential is an indicator of the potential production of hydrogen cyanide in cassava storage roots with less than 5mg/100g fresh weight of root = low, 5-10mg/100g fresh weight of root = medium, and 10mg/100g fresh weight of root = high." []
-relationship: scale_of CO_334:0000362 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T09:18:44Z
-
-[Term]
-id: CO_334:0000364
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000091 ! hydrogen cyanide potential picrate method
-created_by: aafolabi
-creation_date: 2013-09-11T09:22:29Z
-
-[Term]
-id: CO_334:0000365
-name: integer scale of 1-9
-namespace: cassava_trait
-def: "Estimate of storage root cyanide content on scale of 1 = not detectable and 9 = very high." []
-relationship: scale_of CO_334:0000364 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T09:22:49Z
-
-[Term]
-id: CO_334:0000366
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000068 ! iron content
-created_by: aafolabi
-creation_date: 2013-09-11T09:24:15Z
-
-[Term]
-id: CO_334:0000367
-name: milligramme  per kilogramme
-namespace: cassava_trait
-def: "mg/kg." []
-relationship: scale_of CO_334:0000366 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T09:24:28Z
-
-[Term]
-id: CO_334:0000368
-name: calculation
-namespace: cassava_trait
-relationship: method_of CO_334:0000098 ! lafun content
-created_by: aafolabi
-creation_date: 2013-09-11T09:27:24Z
-
-[Term]
-id: CO_334:0000369
-name: percentage
-namespace: cassava_trait
-def: "%." []
-is_a: CO_334:0000368 ! calculation
-created_by: aafolabi
-creation_date: 2013-09-11T09:28:05Z
-
-[Term]
-id: CO_334:0000370
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000069 ! moisture content
-created_by: aafolabi
-creation_date: 2013-09-11T09:28:31Z
-
-[Term]
-id: CO_334:0000371
-name: percentage
-namespace: cassava_trait
-def: "%." []
-relationship: scale_of CO_334:0000370 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T09:29:04Z
-
-[Term]
-id: CO_334:0000372
-name: visual scoring
-namespace: cassava_trait
-relationship: method_of CO_334:0000077 ! post-harvest physiological deterioration
-created_by: aafolabi
-creation_date: 2013-09-11T09:31:56Z
-
-[Term]
-id: CO_334:0000373
-name: integer scale of 1-10
-namespace: cassava_trait
-def: "The intensity of microbial deterioration in storage root on a scale of 1 = no deterioration and 10 = highest level of microbial deterioration." []
-relationship: scale_of CO_334:0000372 ! visual scoring
-created_by: aafolabi
-creation_date: 2013-09-11T09:32:12Z
-
-[Term]
-id: CO_334:0000374
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000070 ! protein content
-created_by: aafolabi
-creation_date: 2013-09-11T10:03:03Z
-
-[Term]
-id: CO_334:0000375
-name: percentage
-namespace: cassava_trait
-def: "%." []
-relationship: scale_of CO_334:0000374 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T10:03:35Z
-
-[Term]
-id: CO_334:0000376
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000071 ! starch content
-created_by: aafolabi
-creation_date: 2013-09-11T10:11:19Z
-
-[Term]
-id: CO_334:0000377
-name: percentage
-namespace: cassava_trait
-relationship: scale_of CO_334:0000376 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T10:49:44Z
-
-[Term]
-id: CO_334:0000378
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000072 ! sugar content
-created_by: aafolabi
-creation_date: 2013-09-11T10:51:03Z
-
-[Term]
-id: CO_334:0000379
-name: percentage
-namespace: cassava_trait
-relationship: scale_of CO_334:0000378 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T10:51:21Z
-
-[Term]
-id: CO_334:0000380
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000073 ! total carotenoid content
-created_by: aafolabi
-creation_date: 2013-09-11T10:52:31Z
-
-[Term]
-id: CO_334:0000381
-name: microgramme per gramme
-namespace: cassava_trait
-relationship: scale_of CO_334:0000380 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T10:53:03Z
-
-[Term]
-id: CO_334:0000382
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000118 ! total carotenoid retention
-created_by: aafolabi
-creation_date: 2013-09-11T10:55:59Z
-
-[Term]
-id: CO_334:0000383
-name: percentage
-namespace: cassava_trait
-relationship: scale_of CO_334:0000382 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T10:56:23Z
-
-[Term]
-id: CO_334:0000384
-name: estimation
-namespace: cassava_trait
-relationship: method_of CO_334:0000078 ! zinc content
-created_by: aafolabi
-creation_date: 2013-09-11T10:57:01Z
-
-[Term]
-id: CO_334:0000385
-name: part per million
-namespace: cassava_trait
-def: "ppm." []
-relationship: scale_of CO_334:0000384 ! estimation
-created_by: aafolabi
-creation_date: 2013-09-11T10:57:19Z
-
-[Term]
-id: CO_334:0000386
-name: gustation
-namespace: cassava_trait
-relationship: method_of CO_334:0000085 ! taste of boiled root
 created_by: aafolabi
-creation_date: 2013-09-11T10:58:07Z
+creation_date: 2013-12-09T12:40:14Z
 
 [Term]
-id: CO_334:0000387
-name: integer scale of 1-3
+id: CO_334:0000138
+name: sprout count
 namespace: cassava_trait
-def: "Taste of boiled root rating as 1 = bland, 2 = sweet, and 3 = bitter." []
-relationship: scale_of CO_334:0000386 ! gustation
+def: "A count of the number of stakes germinated, one month after planting." []
+synonym: "SPRTCT" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
 created_by: aafolabi
-creation_date: 2013-09-11T11:02:53Z
+creation_date: 2013-12-09T12:50:54Z
 
 [Term]
-id: CO_334:0000388
-name: sensory assessment
+id: CO_334:0000139
+name: branching
 namespace: cassava_trait
-relationship: method_of CO_334:0000074 ! poundability
+def: "Visual rating of branch height on a scale of 0 = no branching, 1 = low branching (<0.5m), 2 = medium branching (>0.5m <= 1m), 3 = high branching (>= 1)." []
+is_a: CO_334:0000002 ! morphological trait
 created_by: aafolabi
-creation_date: 2013-09-11T11:05:20Z
+creation_date: 2013-12-09T13:44:13Z
 
 [Term]
-id: CO_334:0000389
-name: integer scale of 0-3
+id: CO_334:0000140
+name: branching habit
 namespace: cassava_trait
-def: "Mealiness of boiled cassava storage root on scales (0 = Non poundable, 1 = slightly poundable, 2 = poundable, 3 = very poundable)." []
-is_a: CO_334:0000388 ! sensory assessment
+def: "Visual observation of the lowest or first branching on a scale of 1 = erect, 2 = dichotomous, 3 = trichotomous, 4 = tetrachotomous. The most frequent occurence on the plot is recorded." []
+synonym: "BRNHBT" EXACT []
+is_a: CO_334:0000002 ! morphological trait
 created_by: aafolabi
-creation_date: 2013-09-11T11:05:55Z
+creation_date: 2013-12-09T13:43:21Z
 
 [Term]
-id: CO_334:0000390
+id: CO_334:0000141
 name: days to 50% branching
 namespace: cassava_trait
-def: "The number of days (the date from the date of planting) fifty percent of the plant stand per plot branches." []
+def: "Visual observation of when (actual date in the format of dd/mm/yyyy) fifty percent of the plant stand per plot branches." []
 synonym: "FLW50B" EXACT []
 is_a: CO_334:0000002 ! morphological trait
 created_by: aafolabi
-creation_date: 2013-09-11T11:41:40Z
+creation_date: 2013-12-09T15:37:58Z
 
 [Term]
-id: CO_334:0000391
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000390 ! days to 50% branching
-created_by: aafolabi
-creation_date: 2013-09-11T11:43:48Z
-
-[Term]
-id: CO_334:0000392
-name: date
-namespace: cassava_trait
-def: "Date in the format dd/mm/yyyy" []
-relationship: scale_of CO_334:0000391 ! visual observation
-created_by: aafolabi
-creation_date: 2013-09-11T11:44:10Z
-
-[Term]
-id: CO_334:0000393
-name: branch height
-namespace: cassava_trait
-def: "The average height of at least half of the total number of plant stands." []
-synonym: "FLW50BHT" EXACT []
-is_a: CO_334:0000002 ! morphological trait
-created_by: aafolabi
-creation_date: 2013-09-11T13:10:23Z
-
-[Term]
-id: CO_334:0000394
-name: measurement
-namespace: cassava_trait
-relationship: method_of CO_334:0000393 ! branch height
-created_by: aafolabi
-creation_date: 2013-09-11T13:12:22Z
-
-[Term]
-id: CO_334:0000395
-name: visual rating
-namespace: cassava_trait
-relationship: method_of CO_334:0000393 ! branch height
-created_by: aafolabi
-creation_date: 2013-09-11T13:12:52Z
-
-[Term]
-id: CO_334:0000396
-name: integer scale of 0-3
-namespace: cassava_trait
-def: "Rating of branch height on a scale of 0 = no branching, 1 = low branching (<0.5m), 2 = medium branching (>0.5m <= 1m), 3 = high branching (>= 1)." []
-relationship: scale_of CO_334:0000395 ! visual rating
-created_by: aafolabi
-creation_date: 2013-09-11T13:16:17Z
-
-[Term]
-id: CO_334:0000397
-name: centimeter
-namespace: cassava_trait
-relationship: scale_of CO_334:0000394 ! measurement
-created_by: aafolabi
-creation_date: 2013-09-11T13:22:38Z
-
-[Term]
-id: CO_334:0000398
+id: CO_334:0000142
 name: days to first inflorescence
 namespace: cassava_trait
-def: "The number of days (date from the date of planting) it takes developing inflorescence to appear on a plant or plot." []
+def: "Visual observation (actual date in the format of dd/mm/yyyy) of the appearance of a developing inflorescence on a plant or plot." []
 synonym: "FLWDFI" EXACT []
 is_a: CO_334:0000002 ! morphological trait
 created_by: aafolabi
-creation_date: 2013-09-11T13:24:00Z
+creation_date: 2013-12-09T15:42:58Z
 
 [Term]
-id: CO_334:0000399
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000398 ! days to first inflorescence
-created_by: aafolabi
-creation_date: 2013-09-11T13:28:12Z
-
-[Term]
-id: CO_334:0000400
-name: date
-namespace: cassava_trait
-def: "Date in the format dd/mm/yyyy" []
-relationship: scale_of CO_334:0000399 ! visual observation
-created_by: aafolabi
-creation_date: 2013-09-11T13:28:35Z
-
-[Term]
-id: CO_334:0000401
-name: days to 50% inflorescence
-namespace: cassava_trait
-def: "The number of days (date from the date of planting) it takes a developing inflorescence to appear on fifty percent of the plant stands per plot." []
-synonym: "FLW50I" EXACT []
-is_a: CO_334:0000002 ! morphological trait
-created_by: aafolabi
-creation_date: 2013-09-11T13:29:45Z
-
-[Term]
-id: CO_334:0000402
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000401 ! days to 50% inflorescence
-created_by: aafolabi
-creation_date: 2013-09-11T13:32:44Z
-
-[Term]
-id: CO_334:0000403
-name: date
-namespace: cassava_trait
-def: "Date in the format dd/mm/yyyy" []
-relationship: scale_of CO_334:0000402 ! visual observation
-created_by: aafolabi
-creation_date: 2013-09-11T13:33:08Z
-
-[Term]
-id: CO_334:0000404
+id: CO_334:0000143
 name: female flower number
 namespace: cassava_trait
-def: "A count of the number of female flowers after the buds appears, matures, and grows in size to become distinctive." []
+def: "A count of the number female flowers after the buds appears, matures, and grows in size to become distinctive at the first, second, and third branch levels." []
 synonym: "FLWFNO" EXACT []
 is_a: CO_334:0000002 ! morphological trait
 created_by: aafolabi
-creation_date: 2013-09-11T13:33:53Z
+creation_date: 2013-12-09T16:06:08Z
 
 [Term]
-id: CO_334:0000405
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000406 ! counting
-created_by: aafolabi
-creation_date: 2013-09-11T13:44:45Z
-
-[Term]
-id: CO_334:0000406
-name: counting
-namespace: cassava_trait
-relationship: method_of CO_334:0000404 ! female flower number
-created_by: aafolabi
-creation_date: 2013-09-11T13:43:42Z
-
-[Term]
-id: CO_334:0000407
+id: CO_334:0000144
 name: male flower number
 namespace: cassava_trait
-def: "A count of the number of male flowers after the buds appears, matures, and grows in size to become distinctive." []
-synonym: "FLWMNO" RELATED []
+def: "A count of the number male flowers after the buds appears, matures, and grows in size to become distinctive at the first, second, and third branch levels." []
+synonym: "FLWMNO" EXACT []
 is_a: CO_334:0000002 ! morphological trait
 created_by: aafolabi
-creation_date: 2013-09-11T13:45:29Z
+creation_date: 2013-12-09T16:23:58Z
 
 [Term]
-id: CO_334:0000408
-name: counting
+id: CO_334:0000145
+name: number of flowering stalks per branch level
 namespace: cassava_trait
-relationship: method_of CO_334:0000407 ! male flower number
+def: "A count of the number of stalks carrying the buds at every point of branching, where inflorescence starts." []
+synonym: "FLWSTK" EXACT []
+is_a: CO_334:0000002 ! morphological trait
 created_by: aafolabi
-creation_date: 2013-09-11T13:46:37Z
+creation_date: 2013-12-09T16:29:18Z
 
 [Term]
-id: CO_334:0000409
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000408 ! counting
-created_by: aafolabi
-creation_date: 2013-09-11T13:48:09Z
-
-[Term]
-id: CO_334:0000410
+id: CO_334:0000146
 name: number of forks
 namespace: cassava_trait
-def: "The number of branches at every branching level." []
+def: "Number of branches at every branching level." []
 synonym: "FLWFRK" EXACT []
 is_a: CO_334:0000002 ! morphological trait
 created_by: aafolabi
-creation_date: 2013-09-11T13:54:10Z
+creation_date: 2013-12-09T16:32:19Z
 
 [Term]
-id: CO_334:0000411
-name: counting
+id: CO_334:0000147
+name: Days to first anthesis
 namespace: cassava_trait
-relationship: method_of CO_334:0000410 ! number of forks
-created_by: aafolabi
-creation_date: 2013-09-11T14:29:44Z
-
-[Term]
-id: CO_334:0000412
-name: real number
-namespace: cassava_trait
-relationship: scale_of CO_334:0000411 ! counting
-created_by: aafolabi
-creation_date: 2013-09-11T14:30:00Z
-
-[Term]
-id: CO_334:0000413
-name: days to first anthesis
-namespace: cassava_trait
-def: "The number of days it takes any female flower to open up to expose the pistil per plot." []
-synonym: "<new synonym>FLWDFA" EXACT []
+def: "Visual observation of when (actual date in the format of dd/mm/yyyy) any female flower opens up to expose the pistil per plot." []
+synonym: "FLWDFA" EXACT []
 is_a: CO_334:0000002 ! morphological trait
 created_by: aafolabi
-creation_date: 2013-09-11T14:30:33Z
+creation_date: 2013-12-09T16:36:22Z
 
 [Term]
-id: CO_334:0000414
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000413 ! days to first anthesis
-created_by: aafolabi
-creation_date: 2013-09-11T14:32:28Z
-
-[Term]
-id: CO_334:0000415
-name: date
-namespace: cassava_trait
-def: "date in the format dd/mm/yyyy" []
-relationship: scale_of CO_334:0000414 ! visual observation
-created_by: aafolabi
-creation_date: 2013-09-11T14:33:04Z
-
-[Term]
-id: CO_334:0000416
+id: CO_334:0000148
 name: days to 50% anthesis
 namespace: cassava_trait
-def: "The number of days (date from the date of planting) it takes for anthesis (female flower opens up to expose the pistil) to occurs in fifty percent of the whole plot." []
+def: "Visual observation of when (actual date in the format of dd/mm/yyyy) fifty percent of the female flower opens up to expose the pistil per plot." []
 synonym: "FLW50A" EXACT []
 is_a: CO_334:0000002 ! morphological trait
 created_by: aafolabi
-creation_date: 2013-09-11T14:33:41Z
+creation_date: 2013-12-09T16:41:15Z
 
 [Term]
-id: CO_334:0000417
-name: visual observation
-namespace: cassava_trait
-relationship: method_of CO_334:0000416 ! days to 50% anthesis
-created_by: aafolabi
-creation_date: 2013-09-11T14:36:18Z
-
-[Term]
-id: CO_334:0000418
-name: date
-namespace: cassava_trait
-def: "date in the format dd/mm/yyyy" []
-relationship: scale_of CO_334:0000417 ! visual observation
-created_by: aafolabi
-creation_date: 2013-09-11T14:36:40Z
-
-[Term]
-id: CO_334:0000419
+id: CO_334:0000149
 name: number of fruitset
 namespace: cassava_trait
-def: "A count of the number of fruits formed from the seed after pollination, exactly few days after anthesis, at every branch level." []
+def: "A count of the number of fruits formed from the seeds after pollination." []
 synonym: "FLWFRT" EXACT []
 is_a: CO_334:0000002 ! morphological trait
 created_by: aafolabi
-creation_date: 2013-09-11T14:43:09Z
+creation_date: 2013-12-09T16:43:50Z
 
 [Term]
-id: CO_334:0000420
-name: counting
+id: CO_334:0000150
+name: Bemesia tabaci nymphs yellow
 namespace: cassava_trait
-relationship: method_of CO_334:0000419 ! number of fruitset
+def: "Number of yellow Bemesia tabaci whitefly nymphs on fourteenth leaf of the same tallest shoot." []
+synonym: "BTWFY" EXACT []
+is_a: CO_334:0000030 ! insect damage
 created_by: aafolabi
-creation_date: 2013-09-11T14:52:01Z
+creation_date: 2013-12-10T17:19:57Z
 
 [Term]
-id: CO_334:0000421
-name: real number
+id: CO_334:0000151
+name: Bemesia tabaci nymphs black
 namespace: cassava_trait
-relationship: scale_of CO_334:0000420 ! counting
+def: "Number of black Bemesia tabaci whitefly nymphs on fourteenth leaf of the same tallest shoot." []
+synonym: "BTWFB" EXACT []
+is_a: CO_334:0000030 ! insect damage
 created_by: aafolabi
-creation_date: 2013-09-11T14:52:18Z
+creation_date: 2013-12-10T17:28:17Z
+
+[Term]
+id: CO_334:0000152
+name: Bemesia tabaci nymphs severity
+namespace: cassava_trait
+def: "Visual rating of chlorotic blotches infestation on leaves, caused by whitefly on a rating of 1 = none, 2 = mild chlorotic blotches on <10% of leaves, 3 = damage moderate chlorotic blotches on 10-30% of leaves, 4 = chlorosis on 30-50% of leaves, 5 = chlorosis on >50% of leaves." []
+synonym: "BTWFS" EXACT []
+is_a: CO_334:0000030 ! insect damage
+created_by: aafolabi
+creation_date: 2013-12-10T17:30:57Z
+
+[Term]
+id: CO_334:0000153
+name: Typhlodromalus aripo
+namespace: cassava_trait
+def: "Visual observation of the presence of T. aripo with 1 = present, 0 = absence." []
+synonym: "taripo" EXACT []
+is_a: CO_334:0000030 ! insect damage
+created_by: aafolabi
+creation_date: 2013-12-10T17:35:02Z
+
+[Term]
+id: CO_334:0000154
+name: plant number with inflorescence
+namespace: cassava_trait
+def: "Proportion of plants per plot that have an inflorescence at varying growth stages. Plant with pollinated and unpollinated flowers are all counted together." []
+synonym: "PNOINF" EXACT []
+is_a: CO_334:0000002 ! morphological trait
+created_by: aafolabi
+creation_date: 2013-12-11T10:56:50Z
+
+[Term]
+id: CO_334:0000155
+name: Number of terminal branches with inflorescence
+namespace: cassava_trait
+def: "The maximum number of  terminal branches with inflorescence observed at all levels of branching in a plot." []
+synonym: "TMBRNO" EXACT []
+is_a: CO_334:0000002 ! morphological trait
+created_by: aafolabi
+creation_date: 2013-12-11T11:43:36Z
+
+[Term]
+id: CO_334:0000156
+name: number of fruits
+namespace: cassava_trait
+def: "Number of fruit observed at all levels of branching per plot." []
+synonym: "FRUITNO" RELATED []
+is_a: CO_334:0000002 ! morphological trait
+created_by: aafolabi
+creation_date: 2013-12-11T11:49:25Z
+
+[Term]
+id: CO_334:0000157
+name: root weight in air
+namespace: cassava_trait
+def: "Weight of cassava root samples usually between 4-5kg of each of the harvested plots in a trial for the purpose of determining the dry matter by specific gravity." []
+synonym: "RWTAIR" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+created_by: aafolabi
+creation_date: 2013-12-12T14:15:07Z
+
+[Term]
+id: CO_334:0000158
+name: root weight in water
+namespace: cassava_trait
+def: "Weight obtained by suspending same root sample initially weighed in air, in water for the purpose of determining the sample dry matter by specific gravity method." []
+synonym: "RWTWAT" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+created_by: aafolabi
+creation_date: 2013-12-12T14:18:54Z
+
+[Term]
+id: CO_334:0000159
+name: number of planted stakes
+namespace: cassava_trait
+def: "The total number of stakes planted per plot." []
+synonym: "STKPLT" RELATED []
+is_a: CO_334:0000001 ! agronomic trait
+created_by: aafolabi
+creation_date: 2013-12-16T09:46:14Z
 
 [Typedef]
 id: derives_from
