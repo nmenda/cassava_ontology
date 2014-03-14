@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:12:2013 09:58
+date: 20:03:2014 09:25
 saved-by: aafolabi
 auto-generated-by: OBO-Edit 2.3
 default-namespace: file:C:/Users/BAKARE/Desktop/cassava_trait.obo
@@ -1720,6 +1720,46 @@ synonym: "STKPLT" RELATED []
 is_a: CO_334:0000001 ! agronomic trait
 created_by: aafolabi
 creation_date: 2013-12-16T09:46:14Z
+
+[Term]
+id: CO_334:0000160
+name: dry matter content by specific gravity method
+namespace: cassava_trait
+def: "Percentage dry matter content estimated from the specific gravity value of weighted cassava (4-5kg)." []
+synonym: "DMSPG" EXACT []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2014-03-20T08:06:41Z
+
+[Term]
+id: CO_334:0000161
+name: total carotenoid by chart
+namespace: cassava_trait
+def: "Assessment of the level of yellowness in cassava storage root pulp using the tc chart on a scale of : 1 = white, 2 = light cream, 3 = cream, 4 = light yellow, 5 = yellow, 6 = deep yellow, 7 = orange, 8 = pink." [CO:aa]
+synonym: "TCHART" EXACT []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2014-03-20T08:18:03Z
+
+[Term]
+id: CO_334:0000162
+name: total carotenoid by iCheck method
+namespace: cassava_trait
+def: "Measurement of total carotenoid content in a given cassava storage root sample using iCheck kit or device." [CO:aa]
+synonym: "TCICHK" RELATED []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2014-03-20T08:28:21Z
+
+[Term]
+id: CO_334:0000163
+name: specific gravity
+namespace: cassava_trait
+def: "Estimated value obtained by weighing 4-5 kilogram of cassava root in air, and in water." [CO:aa]
+synonym: "SPGRV" EXACT []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2014-03-20T08:45:03Z
 
 [Typedef]
 id: derives_from
